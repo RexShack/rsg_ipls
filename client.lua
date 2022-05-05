@@ -1147,9 +1147,9 @@ RequestImap(26815048) -- Normal Fields
 RequestImap(-1229109520) -- Green Plants
 
 -- ############# -- Blackwater Town Hall
-RequestImap(-2082201137)  --Blackwater Ground Town Hall
-RequestImap(1343343014)  --Blackwater Town Hall Addons Construction
-RequestImap(739412171)  -- Two Boards in front of city hall (Goes with Town Hall Construction)
+--RequestImap(-2082201137)  --Blackwater Ground Town Hall
+--RequestImap(1343343014)  --Blackwater Town Hall Addons Construction
+--RequestImap(739412171)  -- Two Boards in front of city hall (Goes with Town Hall Construction)
 RequestImap(-5339556)  --Bank Under Construction
 RequestImap(1641449717)
 RequestImap(1258244391) -- something
@@ -3096,4 +3096,23 @@ RequestImap(952801839)-- Valentine
 --RequestImap(-428652579) -- Vanhorn
 RequestImap(-1487154162) --Vanhorn
 RequestImap(-605257184) -- Wallace
---END BOUNTY BOARDS 
+--END BOUNTY BOARDS
+
+-- Blackwater Town Hall
+RequestImap(-1906713208) -- Blackwater -- Tree's all around Blackwater
+RequestImap(-1631536545) -- Blackwater -- Grass around Construction by Foreman Building
+RemoveImap(-1675593451)  -- Blackwater -- Lone Rock? next to Foremans building LOD
+RemoveImap(-2082201137)  -- Blackwater -- Town Hall -- Ground
+RemoveImap(1343343014)   -- Blackwater -- Town Hall -- Addons Construction
+RemoveImap(739412171)    -- Blackwater -- Town Hall -- General Clutter at the Docks
+RemoveImap(-5339556)     -- Blackwater -- Town Hall -- Bank Under Construction
+RemoveImap(1258244391)   -- Blackwater -- Town Hall -- Bank Under Construction Occlusion
+RequestImap(-843384101)  -- Blackwater -- Town Hall -- City Hall & Docks Model Textures and Detail
+RemoveImap(1649548630)  -- Blackwater -- Town Hall -- Grass on Right side of City Hall
+--RequestImap(-150795123)   -- Blackwater -- Town Hall -- Trench Low Detail Ground
+RemoveImap(1173561253) -- Blackwater -- Town Hall -- Tents Beside City Hall Near Trech
+RequestImap(1470738186) -- Blackwater -- Town Hall -- Adds Town Hall Pre-Construcion Ground (Ground does not mesh well with contrustion IPLs)
+RequestImap(-1632348233)-- Blackwater -- Town Hall -- Adds Trees and Grass (DO NOT USE WITH CONSTRUCTION IPL, WILL MERGE VISUALS)
+RemoveImap(1173561253)    -- Blackwater -- Town Hall -- Tents Beside City Hall Near Trech
+RemoveImap(1641449717)  -- Blackwater -- Town Hall -- Grass along path near tents
+-- End of Blackwater Town Hall
